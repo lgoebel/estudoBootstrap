@@ -57,11 +57,181 @@
                     </ul>
                 </div>
                 <!-- LOGIN -->
-                <button type="button" class="btn btn-outline-secondary ms-auto" id="primeiroBotao">Secondary</button>
-                <button type="button" class="btn btn-primary" id="segundoBotao">Primary</button>
+                <button type="button" class="btn btn-outline-secondary ms-auto" id="primeiroBotao">Cadastre-se</button>
+                <button type="button" class="btn btn-primary" id="segundoBotao">Logar</button>
             </div>
         </nav>
     </header>
+
+    <main>
+        <!--Slider-->
+        <div class="container" id="slider-container">
+            <div class="carousel slide" id="slider" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button 
+                    type="button"
+                    class="active" 
+                    data-bs-target="#slider" 
+                    data-bs-slide-to="0"
+                    aria-current="true"
+                    aria-label="slide 1"
+                    ></button>
+                    <button 
+                    type="button"
+                    data-bs-target="#slider" 
+                    data-bs-slide-to="1"
+                    aria-label="slide 2"
+                    ></button>
+                    <button 
+                    type="button"
+                    data-bs-target="#slider" 
+                    data-bs-slide-to="2"
+                    aria-label="slide 3"
+                    ></button>
+                </div>
+                <!--CAROUSEL INTERNO-->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="http://via.placeholder.com/400x200" class="d-block w-100"/>
+                        <div class="carousel-caption">
+                            <h5>Casas Planejadas </h5>
+                            <a href="#!" class="btn btn-dark">Ver projetos</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="http://via.placeholder.com/400x200" class="d-block w-100"/>
+                        <div class="carousel-caption">
+                            <h5>Projetos Complexos</h5>
+                            <a href="#!" class="btn btn-dark">Ver projetos</a>
+                        </div>
+                    </div>                    
+                    <div class="carousel-item">
+                        <img src="http://via.placeholder.com/400x200" class="d-block w-100"/>
+                        <div class="carousel-caption">
+                            <h5>Projetos Inovadores </h5>
+                            <a href="#!" class="btn btn-dark">Ver projetos</a>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" 
+                    type="button" 
+                    data-bs-target="#slider" 
+                    data-bs-slide="prev"
+                    >
+                    <i class="bi bi-chevron-compact-left"></i>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" 
+                    type="button" 
+                    data-bs-target="#slider" 
+                    data-bs-slide="next"
+                    >
+                    <i class="bi bi-chevron-compact-right"></i>
+                    <span class="visually-hidden">Proximo</span>
+                </button>
+            </div>
+                    <!--Mini Banners-->
+        <div class="col-12 col-md-10 offset-md-1" id="mini-banners">
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <div class="card text-center">
+                        <i class="bi bi-box primary-color"></i>
+                        <div class="card-body">
+                            <h5 class="card-title primary-color">Projetos completos</h5>
+                            <p class="card-text secondary-color">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <a href="#!" class="btn btn-dark">Saber mais</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card text-center">
+                        <i class="bi bi-layers primary-color"></i>
+                        <div class="card-body">
+                            <h5 class="card-title primary-color">Você participa também</h5>
+                            <p class="card-text secondary-color">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <a href="#!" class="btn btn-dark">Saber mais</a>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card text-center">
+                        <i class="bi bi-lightning-charge primary-color"></i>
+                        <div class="card-body">
+                            <h5 class="card-title primary-color">Adiantamente de entregas</h5>
+                            <p class="card-text secondary-color">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <a href="#!" class="btn btn-dark">Saber mais</a>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!--Destaques-->
+        <div class="container" id="featured-container">
+            <div class="col-12">
+                <h2 class="title primary-color">Trabalhos em Destaque</h2>
+                <p class="subtitle secondary-color">
+                    Conheça nossos projetos mais desafiadores
+                </p>
+            </div>
+            <div class="col-12" id="featured-images">
+                <div class="row g-4">
+                    <div class="col-12 col-md-4">
+                        <img src="http://via.placeholder.com/400x200" class="img-fluid">
+                        <div class="banner-content">
+                            <p class="secondary-color">Categoria</p>
+                            <h3>Nome do Projeto</h3>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <img src="http://via.placeholder.com/400x200" class="img-fluid">
+                        <div class="banner-content">
+                            <p class="secondary-color">Categoria</p>
+                            <h3>Nome do Projeto</h3>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <img src="http://via.placeholder.com/400x200" class="img-fluid">
+                        <div class="banner-content">
+                            <p class="secondary-color">Categoria</p>
+                            <h3>Nome do Projeto</h3>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <img src="http://via.placeholder.com/400x200" class="img-fluid">
+                        <div class="banner-content">
+                            <p class="secondary-color">Categoria</p>
+                            <h3>Nome do Projeto</h3>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <img src="http://via.placeholder.com/400x200" class="img-fluid">
+                        <div class="banner-content">
+                            <p class="secondary-color">Categoria</p>
+                            <h3>Nome do Projeto</h3>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <img src="http://via.placeholder.com/400x200" class="img-fluid">
+                        <div class="banner-content">
+                            <p class="secondary-color">Categoria</p>
+                            <h3>Nome do Projeto</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
 
     <footer class="bg-light">
         <div class="container">
