@@ -77,6 +77,71 @@ header{
     margin-left: 1em;
 }
 /*MAIN*/
+/*HERO SECTION*/
+
+.hero-section{
+    background-color:#f9f9f9 ;
+    padding: 50px 40px;
+    text-align: center;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 30px
+}
+.hero-title{
+    font-size: 2.5em;
+    font-weight: 700;
+    color: #050505;
+}
+
+.hero-subtitle{
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #7a7a7a;
+}
+.search-container{
+    margin-top: 30px;
+}
+.search-container input{
+    border-radius: 50px 0 0 50px;
+}
+
+.search-container .btn-search {
+    border-radius: 0 50px 50px 0;
+    padding: 0 15px;
+    font-size: 20px;
+}
+
+.trending-title{
+    font-size: 1rem;
+    font-weight: 600;
+    font: #7a7a7a;
+}
+
+.trending-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.trending-searches .badge{
+    font-size: 0.875rem;
+    background-color: #ff0000;
+    color:#050505;
+    margin: 5px;
+    padding: 10px 15px;
+    border-radius: 50px;
+    text-decoration: none;
+    
+}
+
+.trending-searches .badge:hover{
+    background-color: #7a7a7a;
+    color:#050505;
+}
+
 /*SLIDER*/
 
 #slider{
