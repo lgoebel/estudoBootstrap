@@ -1,0 +1,59 @@
+/*FOOTER*/
+footer{
+    padding: 0 32px;
+
+}
+
+#containerSuperior{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;  
+}
+
+#containerInferior{
+    row-gap: 0;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;    
+}
+
+<footer class="bg-light">
+<div class="container">
+    <!-- Parte superior -->
+    <div class="row border-bottom pb-3 mb-3" id="containerSuperior">
+        <!-- Links principais -->
+        <div class="col-12 text-center mb-3">
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="/for-designers" class="text-dark text-decoration-none">For designers</a></li>
+                <li class="list-inline-item"><a href="#!" class="text-dark text-decoration-none">Hire talent</a></li>
+                <li class="list-inline-item"><a href="#!" class="text-dark text-decoration-none">Inspiration</a></li>
+            </ul>
+        </div>
+
+        <!-- Links sociais -->
+        <div class="col-12 text-center">
+            <a href="#!" class="text-dark me-3"><i class="bi bi-twitter"></i></a>
+            <a href="#!" class="text-dark me-3"><i class="bi bi-facebook"></i></a>
+            <a href="#!" class="text-dark me-3"><i class="bi bi-instagram"></i></a>
+            <a href="#!" class="text-dark"><i class="bi bi-pinterest"></i></a>
+        </div>
+    </div>
+
+    <!-- Parte inferior -->
+    <div class="row">
+        <div class="col-12 text-center">
+            <ul class="list-inline mb-2">
+                <li class="list-inline-item">© 2024 Dribbble</li>
+                <li class="list-inline-item"><a href="#!" class="text-secondary text-decoration-none">Terms</a></li>
+                <li class="list-inline-item"><a href="#!" class="text-secondary text-decoration-none">Privacy</a></li>
+                <li class="list-inline-item"><a href="#!" class="text-secondary text-decoration-none">Cookies</a></li>
+            </ul>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#!" class="text-secondary text-decoration-none">Jobs</a></li>
+                <li class="list-inline-item"><a href="#!" class="text-secondary text-decoration-none">Designers</a></li>
+                <li class="list-inline-item"><a href="#!" class="text-secondary text-decoration-none">Freelancers</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+</footer>
