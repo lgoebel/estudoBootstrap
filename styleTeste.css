@@ -1,0 +1,19 @@
+.card-img-container {
+    overflow: hidden;
+    position: relative;
+}
+
+.card-img-container .hover-content {
+    background: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.card-img-container:hover .hover-content {
+    opacity: .7;
+}
+
+.card-body img {
+    width: 40px;
+    height: 40px;
+}

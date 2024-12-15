@@ -71,8 +71,8 @@
                 prontos para te levarem para o seu próximo projeto
             </h2>
             <div class="search-container d-flex justify-content-center mt-4">
-                <form class="d-flex" >
-                  <input type="text" name="q" class="form-control" placeholder="O que você está procurando?" style="max-width: 400px;">
+                <form class="d-flex" id="pesquisa" >
+                  <input type="text" name="q" class="form-control" placeholder="O que você está procurando?">
                   <button type="submit" class="btn btn-primary btn-search d-flex align-items-center justify-content-center">
                     <i class="bi bi-search"></i>
                   </button>
@@ -81,7 +81,7 @@
 
             <div class="trending-container">
                 <div class="trending-title">Os mais procurados</div>
-                <div class="trending-searches mt-2">
+                <div class="trending-searches ">
                     <a href="#!" class="badge">landing page</a>
                     <a href="#!" class="badge">e-commerce</a>
                     <a href="#!" class="badge">mobile app</a>
@@ -89,6 +89,97 @@
                     <a href="#!" class="badge">dashboard</a>
                 </div>
             </div>
+        </div>
+        <!--Destaques-->
+        <div class="container" id="featured-container">
+            <div class="col-12">
+                <h2 class="title primary-color">Trabalhos em Destaque</h2>
+                <p class="subtitle secondary-color">
+                    Conheça nossos projetos mais desafiadores
+                </p>
+            </div>
+            <div class="col-12" id="featured-images">
+                <div class="row g-4">
+                    <!-- Card 1 -->
+                    <div class="col-12 col-md-4">
+                        <div class="card">
+                            <div class="image-container">
+                                <img id="imagemDestaque" src="http://via.placeholder.com/400x200" class="img-fluid w-100">
+                                <div class="banner-content">
+                                    <h3>Nome do Projeto</h3>
+                                    <div class="d-flex gap-3">
+                                        <i class="bi bi-bookmark"></i>
+                                        <i class="bi bi-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body d-flex align-items-center mt-2">
+                                <img src="https://via.placeholder.com/40" class="rounded-circle me-2" alt="User">
+                                <div>
+                                    <small class="text-muted">Usuário X</small>
+                                    <div class="d-flex justify-content-between gap-3">
+                                        <i class="bi bi-eye"><small>850</small></i>
+                                        <i class="bi bi-heart-fill"><small>150</small></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--card 2-->
+                    <div class="col-12 col-md-4">
+                        <div class="card">
+                            <div class="image-container">
+                                <img id="imagemDestaque" src="http://via.placeholder.com/400x200" class="img-fluid w-100">
+                                <div class="banner-content">
+                                    <h3>Nome do Projeto</h3>
+                                    <div class="d-flex gap-3">
+                                        <i class="bi bi-bookmark"></i>
+                                        <i class="bi bi-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body d-flex align-items-center mt-2">
+                                <img src="https://via.placeholder.com/40" class="rounded-circle me-2" alt="User">
+                                <div>
+                                    <small class="text-muted">Usuário X</small>
+                                    <div class="d-flex justify-content-between gap-3">
+                                        <i class="bi bi-eye"><small>850</small></i>
+                                        <i class="bi bi-heart-fill"><small>150</small></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--card 3-->
+                    <div class="col-12 col-md-4">
+                        <div class="card">
+                            <div class="image-container">
+                                <img id="imagemDestaque" src="http://via.placeholder.com/400x200" class="img-fluid w-100">
+                                <div class="banner-content">
+                                    <h3>Nome do Projeto</h3>
+                                    <div class="d-flex gap-3">
+                                        <i class="bi bi-bookmark"></i>
+                                        <i class="bi bi-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body d-flex align-items-center mt-2">
+                                <img src="https://via.placeholder.com/40" class="rounded-circle me-2" alt="User">
+                                <div>
+                                    <small class="text-muted">Usuário X</small>
+                                    <div class="d-flex justify-content-between gap-3">
+                                        <i class="bi bi-eye"><small>850</small></i>
+                                        <i class="bi bi-heart-fill"><small>150</small></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            
+            
         </div>
         <!--Slider-->
         <div class="container" id="slider-container">
@@ -156,7 +247,7 @@
                     <span class="visually-hidden">Proximo</span>
                 </button>
             </div>
-                    <!--Mini Banners-->
+        <!--Mini Banners-->
         <div class="col-12 col-md-10 offset-md-1" id="mini-banners">
             <div class="row">
                 <div class="col-12 col-md-4">
@@ -201,62 +292,7 @@
             </div>
         </div>
         </div>
-        <!--Destaques-->
-        <div class="container" id="featured-container">
-            <div class="col-12">
-                <h2 class="title primary-color">Trabalhos em Destaque</h2>
-                <p class="subtitle secondary-color">
-                    Conheça nossos projetos mais desafiadores
-                </p>
-            </div>
-            <div class="col-12" id="featured-images">
-                <div class="row g-4">
-                    <div class="col-12 col-md-4">
-                        <img src="http://via.placeholder.com/400x200" class="img-fluid">
-                        <div class="banner-content">
-                            <p class="secondary-color">Categoria</p>
-                            <h3>Nome do Projeto</h3>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-4">
-                        <img src="http://via.placeholder.com/400x200" class="img-fluid">
-                        <div class="banner-content">
-                            <p class="secondary-color">Categoria</p>
-                            <h3>Nome do Projeto</h3>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-4">
-                        <img src="http://via.placeholder.com/400x200" class="img-fluid">
-                        <div class="banner-content">
-                            <p class="secondary-color">Categoria</p>
-                            <h3>Nome do Projeto</h3>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-4">
-                        <img src="http://via.placeholder.com/400x200" class="img-fluid">
-                        <div class="banner-content">
-                            <p class="secondary-color">Categoria</p>
-                            <h3>Nome do Projeto</h3>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-4">
-                        <img src="http://via.placeholder.com/400x200" class="img-fluid">
-                        <div class="banner-content">
-                            <p class="secondary-color">Categoria</p>
-                            <h3>Nome do Projeto</h3>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-4">
-                        <img src="http://via.placeholder.com/400x200" class="img-fluid">
-                        <div class="banner-content">
-                            <p class="secondary-color">Categoria</p>
-                            <h3>Nome do Projeto</h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
-        </div>
         <!--Info-->
         <div class="container" id="info-container">
             <div class="col-12">
