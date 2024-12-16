@@ -6,9 +6,7 @@
 ## _01 - Home page_
 **Objetivo**: Apresentar a plataforma, destacar os melhores projetos e motivar os usuários a explorarem ou se registrarem.
 
-
 - Navbar responsiva
-- Carrossel
 - Grid de cards
 - Botão de call-to-action
 
