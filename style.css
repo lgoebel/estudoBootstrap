@@ -77,6 +77,7 @@ header{
     margin-left: 1em;
 }
 /*MAIN*/
+
 /*HERO SECTION*/
 
 .hero-section{
@@ -146,11 +147,13 @@ header{
     padding: 10px 15px;
     border-radius: 50px;
     text-decoration: none;
+    transition: all 0.5s ease;
 }
 
 .trending-searches .badge:hover{
     background-color: #7a7a7a;
     color:#050505;
+
 }
 
 /*SLIDER*/

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Segunda Pagina</title>
+    <title>Home Page</title>
     <!--CDN BOOTSTRAP-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
     <!--CDN ICONS BOOTSTRAP-->
@@ -115,11 +115,11 @@
                             </div>
                             <div class="card-body d-flex align-items-center mt-2">
                                 <img src="https://via.placeholder.com/40" class="rounded-circle me-2" alt="User">
-                                <div>
-                                    <small class="text-muted">Usuário X</small>
-                                    <div class="d-flex justify-content-between gap-3">
-                                        <i class="bi bi-eye"><small>850</small></i>
+                                <div class="flex-grow-1 d-flex justify-content-between align-items-center">
+                                    <span>Usuário X</span>
+                                    <div class="d-flex align-items-center gap-3">
                                         <i class="bi bi-heart-fill"><small>150</small></i>
+                                        <i class="bi bi-eye"><small>850</small></i>
                                     </div>
                                 </div>
                             </div>
@@ -140,11 +140,11 @@
                             </div>
                             <div class="card-body d-flex align-items-center mt-2">
                                 <img src="https://via.placeholder.com/40" class="rounded-circle me-2" alt="User">
-                                <div>
-                                    <small class="text-muted">Usuário X</small>
-                                    <div class="d-flex justify-content-between gap-3">
-                                        <i class="bi bi-eye"><small>850</small></i>
+                                <div class="flex-grow-1 d-flex justify-content-between align-items-center">
+                                    <span>Usuário X</span>
+                                    <div class="d-flex align-items-center gap-3">
                                         <i class="bi bi-heart-fill"><small>150</small></i>
+                                        <i class="bi bi-eye"><small>850</small></i>
                                     </div>
                                 </div>
                             </div>
@@ -165,177 +165,162 @@
                             </div>
                             <div class="card-body d-flex align-items-center mt-2">
                                 <img src="https://via.placeholder.com/40" class="rounded-circle me-2" alt="User">
-                                <div>
-                                    <small class="text-muted">Usuário X</small>
-                                    <div class="d-flex justify-content-between gap-3">
-                                        <i class="bi bi-eye"><small>850</small></i>
+                                <div class="flex-grow-1 d-flex justify-content-between align-items-center">
+                                    <span>Usuário X</span>
+                                    <div class="d-flex align-items-center gap-3">
                                         <i class="bi bi-heart-fill"><small>150</small></i>
+                                        <i class="bi bi-eye"><small>850</small></i>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-
-                </div>
-            </div>
-            
-            
-        </div>
-        <!--Slider-->
-        <div class="container" id="slider-container">
-            <div class="carousel slide" id="slider" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                    <button 
-                    type="button"
-                    class="active" 
-                    data-bs-target="#slider" 
-                    data-bs-slide-to="0"
-                    aria-current="true"
-                    aria-label="slide 1"
-                    ></button>
-                    <button 
-                    type="button"
-                    data-bs-target="#slider" 
-                    data-bs-slide-to="1"
-                    aria-label="slide 2"
-                    ></button>
-                    <button 
-                    type="button"
-                    data-bs-target="#slider" 
-                    data-bs-slide-to="2"
-                    aria-label="slide 3"
-                    ></button>
-                </div>
-                <!--CAROUSEL INTERNO-->
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="http://via.placeholder.com/400x200" class="d-block w-100"/>
-                        <div class="carousel-caption">
-                            <h5>Casas Planejadas </h5>
-                            <a href="#!" class="btn btn-dark">Ver projetos</a>
-                        </div>
-                    </div>
-                    <div class="carousel-item ">
-                        <img src="http://via.placeholder.com/400x200" class="d-block w-100"/>
-                        <div class="carousel-caption">
-                            <h5>Projetos Complexos</h5>
-                            <a href="#!" class="btn btn-dark">Ver projetos</a>
-                        </div>
-                    </div>                    
-                    <div class="carousel-item">
-                        <img src="http://via.placeholder.com/400x200" class="d-block w-100"/>
-                        <div class="carousel-caption">
-                            <h5>Projetos Inovadores </h5>
-                            <a href="#!" class="btn btn-dark">Ver projetos</a>
-                        </div>
-                    </div>
-                </div>
-                <button class="carousel-control-prev" 
-                    type="button" 
-                    data-bs-target="#slider" 
-                    data-bs-slide="prev"
-                    >
-                    <i class="bi bi-chevron-compact-left"></i>
-                    <span class="visually-hidden">Anterior</span>
-                </button>
-                <button class="carousel-control-next" 
-                    type="button" 
-                    data-bs-target="#slider" 
-                    data-bs-slide="next"
-                    >
-                    <i class="bi bi-chevron-compact-right"></i>
-                    <span class="visually-hidden">Proximo</span>
-                </button>
-            </div>
-        <!--Mini Banners-->
-        <div class="col-12 col-md-10 offset-md-1" id="mini-banners">
-            <div class="row">
-                <div class="col-12 col-md-4">
-                    <div class="card text-center">
-                        <i class="bi bi-box primary-color"></i>
-                        <div class="card-body">
-                            <h5 class="card-title primary-color">Projetos completos</h5>
-                            <p class="card-text secondary-color">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            </p>
-                            <a href="#!" class="btn btn-dark">Saber mais</a>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-4">
-                    <div class="card text-center">
-                        <i class="bi bi-layers primary-color"></i>
-                        <div class="card-body">
-                            <h5 class="card-title primary-color">Você participa também</h5>
-                            <p class="card-text secondary-color">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            </p>
-                            <a href="#!" class="btn btn-dark">Saber mais</a>
-                            
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-4">
-                    <div class="card text-center">
-                        <i class="bi bi-lightning-charge primary-color"></i>
-                        <div class="card-body">
-                            <h5 class="card-title primary-color">Adiantamente de entregas</h5>
-                            <p class="card-text secondary-color">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            </p>
-                            <a href="#!" class="btn btn-dark">Saber mais</a>
-                            
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </div>
-
-        <!--Info-->
-        <div class="container" id="info-container">
-            <div class="col-12">
-                <h2 class="title primary-color">Detalhes importantes</h2>
-                <p class="subtitle secondary-color">
-                    Saiba mais sobre a experiência da nossa incrivel equipe
-                </p>
-            </div>
-            <div class="col-12">
-                <div class="row">
-                    <div class="col-12 col-md-5" id="info-banner">
-                        <img src="http://via.placeholder.com/400x200" 
-                        class="image-fluid"/>
-                    </div>
-                    <div class="col-12 col-md-7 bg-secondary-color" id="info-content">
-                        <div class="row">
-                            <h2 class="title primary-color">Estes dados fazem a diferença</h2>
-                            <p class="subtitle secondary-color">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, vitae. Nostrum totam, ab quaerat alias consectetur hic laborum iure ratione nobis tempore nulla nemo debitis cum soluta dolorum quis deserunt!
-                            </p>
-                        </div>
-                        <div class="col-12" id="infor-numbers">
-                            <div class="row">
-                                <div class="col-4">
-                                    <h3 class="primary-color">18</h3>
-                                    <p class="secondary-color">Anos na construção civil</p>
+                    <div class="col-12 col-md-4">
+                        <div class="card">
+                            <div class="image-container">
+                                <img id="imagemDestaque" src="http://via.placeholder.com/400x200" class="img-fluid w-100">
+                                <div class="banner-content">
+                                    <h3>Nome do Projeto</h3>
+                                    <div class="d-flex gap-3">
+                                        <i class="bi bi-bookmark"></i>
+                                        <i class="bi bi-heart"></i>
+                                    </div>
                                 </div>
-                                <div class="col-4">
-                                    <h3 class="primary-color">95</h3>
-                                    <p class="secondary-color">Projetos executados</p>
-                                </div>
-                                <div class="col-4">
-                                    <h3 class="primary-color">369</h3>
-                                    <p class="secondary-color">Clientes</p>
+                            </div>
+                            <div class="card-body d-flex align-items-center mt-2">
+                                <img src="https://via.placeholder.com/40" class="rounded-circle me-2" alt="User">
+                                <div class="flex-grow-1 d-flex justify-content-between align-items-center">
+                                    <span>Usuário X</span>
+                                    <div class="d-flex align-items-center gap-3">
+                                        <i class="bi bi-heart-fill"><small>150</small></i>
+                                        <i class="bi bi-eye"><small>850</small></i>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12">
-                            <a href="#!" class="btn btn-dark">Saber mais</a>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="card">
+                            <div class="image-container">
+                                <img id="imagemDestaque" src="http://via.placeholder.com/400x200" class="img-fluid w-100">
+                                <div class="banner-content">
+                                    <h3>Nome do Projeto</h3>
+                                    <div class="d-flex gap-3">
+                                        <i class="bi bi-bookmark"></i>
+                                        <i class="bi bi-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body d-flex align-items-center mt-2">
+                                <img src="https://via.placeholder.com/40" class="rounded-circle me-2" alt="User">
+                                <div class="flex-grow-1 d-flex justify-content-between align-items-center">
+                                    <span>Usuário X</span>
+                                    <div class="d-flex align-items-center gap-3">
+                                        <i class="bi bi-heart-fill"><small>150</small></i>
+                                        <i class="bi bi-eye"><small>850</small></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="card">
+                            <div class="image-container">
+                                <img id="imagemDestaque" src="http://via.placeholder.com/400x200" class="img-fluid w-100">
+                                <div class="banner-content">
+                                    <h3>Nome do Projeto</h3>
+                                    <div class="d-flex gap-3">
+                                        <i class="bi bi-bookmark"></i>
+                                        <i class="bi bi-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body d-flex align-items-center mt-2">
+                                <img src="https://via.placeholder.com/40" class="rounded-circle me-2" alt="User">
+                                <div class="flex-grow-1 d-flex justify-content-between align-items-center">
+                                    <span>Usuário X</span>
+                                    <div class="d-flex align-items-center gap-3">
+                                        <i class="bi bi-heart-fill"><small>150</small></i>
+                                        <i class="bi bi-eye"><small>850</small></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="card">
+                            <div class="image-container">
+                                <img id="imagemDestaque" src="http://via.placeholder.com/400x200" class="img-fluid w-100">
+                                <div class="banner-content">
+                                    <h3>Nome do Projeto</h3>
+                                    <div class="d-flex gap-3">
+                                        <i class="bi bi-bookmark"></i>
+                                        <i class="bi bi-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body d-flex align-items-center mt-2">
+                                <img src="https://via.placeholder.com/40" class="rounded-circle me-2" alt="User">
+                                <div class="flex-grow-1 d-flex justify-content-between align-items-center">
+                                    <span>Usuário X</span>
+                                    <div class="d-flex align-items-center gap-3">
+                                        <i class="bi bi-heart-fill"><small>150</small></i>
+                                        <i class="bi bi-eye"><small>850</small></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="card">
+                            <div class="image-container">
+                                <img id="imagemDestaque" src="http://via.placeholder.com/400x200" class="img-fluid w-100">
+                                <div class="banner-content">
+                                    <h3>Nome do Projeto</h3>
+                                    <div class="d-flex gap-3">
+                                        <i class="bi bi-bookmark"></i>
+                                        <i class="bi bi-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body d-flex align-items-center mt-2">
+                                <img src="https://via.placeholder.com/40" class="rounded-circle me-2" alt="User">
+                                <div class="flex-grow-1 d-flex justify-content-between align-items-center">
+                                    <span>Usuário X</span>
+                                    <div class="d-flex align-items-center gap-3">
+                                        <i class="bi bi-heart-fill"><small>150</small></i>
+                                        <i class="bi bi-eye"><small>850</small></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="card">
+                            <div class="image-container">
+                                <img id="imagemDestaque" src="http://via.placeholder.com/400x200" class="img-fluid w-100">
+                                <div class="banner-content">
+                                    <h3>Nome do Projeto</h3>
+                                    <div class="d-flex gap-3">
+                                        <i class="bi bi-bookmark"></i>
+                                        <i class="bi bi-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body d-flex align-items-center mt-2">
+                                <img src="https://via.placeholder.com/40" class="rounded-circle me-2" alt="User">
+                                <div class="flex-grow-1 d-flex justify-content-between align-items-center">
+                                    <span>Usuário X</span>
+                                    <div class="d-flex align-items-center gap-3">
+                                        <i class="bi bi-heart-fill"><small>150</small></i>
+                                        <i class="bi bi-eye"><small>850</small></i>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>   
         </div>
     </main>
     
