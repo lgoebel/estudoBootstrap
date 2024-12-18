@@ -31,9 +31,7 @@ body{
     color: #7a7a7a;
 }
 
-header{
-    flex-shrink: 0;
-}
+
 /* NAVBAR */
 #navbar{
     border-bottom: 1px solid #7a7a7a;
