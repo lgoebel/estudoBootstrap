@@ -93,6 +93,8 @@ header{
     color: #6c757d;
     font-size: 0.9rem;
 }
+
+/*BOTÃO FIXADO*/
 .fixed-actions {
     position: fixed;
     right: 1rem;
@@ -197,6 +199,8 @@ header{
     }
 } 
 
+/*PARTE INFERIOR*/
+
 .divider-content-center{
     position: absolute;
     top: 50%;
@@ -262,3 +266,29 @@ header{
     padding: 0 10px; 
 }
 
+/*COMENTARIOS*/
+.user-photo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.comment-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #f8f9fa;
+}
+.comment-header {
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+.btn-like {
+    color: #6c757d;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+.btn-like:hover {
+    color: red;
+}
