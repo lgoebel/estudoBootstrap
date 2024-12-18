@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Perfil Page</title>
+    <title>Pagina Perfil</title>
     <!--CDN BOOTSTRAP-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
     <!--CDN ICONS BOOTSTRAP-->
@@ -19,66 +19,96 @@
     <header>
         <!--NAVBAR-->
         <nav class="navbar navbar-expand-lg fixed-top bg-primary-color" id="navbar">
-            <div class="container-fluid py-3">
-                <a class="navbar-brand primary-color me-auto" href="#">
+            <div class="container-fluid d-flex align-items-center py-3">
+                <a class="navbar-brand primary-color" href="#">
                     <img src="http://via.placeholder.com/100x50"/>
-                    <span>Navbar</span>
+                    <span>Logo</span>
                 </a>
-                <div class="d-flex flex-column text-center" style="flex: 1;">
-                    <div class="project-title">Nome do projeto</div>
-                    <div class="project-author">Criado por: Usuário X</div>
+                <div class="search-bar-wrapper ms-3">
+                    <input 
+                    type="text" 
+                    class="search-bar-input" 
+                    placeholder="O que você está procurando?" 
+                    aria-label="Search">
+                    <button class="search-bar-btn" aria-label="Search">
+                    <i class="bi bi-search"></i>
+                    </button>
                 </div>
-                <button type="button" class="btn btn-outline-secondary ms-auto" id="primeiroBotao">Cadastre-se</button>
-                <button type="button" class="btn btn-primary" id="segundoBotao">Logar</button>
+                <div class="icones d-flex gap-4 align-items-center justify-content-center">
+                    <a href="#!"> 
+                      <i class="bi bi-wechat primary-color fs-4"></i> 
+                    </a>
+                    <a href="#!">
+                      <i class="bi bi-bell primary-color fs-4"></i> 
+                    </a>
+                    <img class="avatar rounded-circle" src="http://via.placeholder.com/60" >
+                  </div>
             </div>
         </nav>
     </header>
+
     <main>
+        <!-- Profile -->
+        <section class="profile">
+            <div class="wrapper">
+                <!-- Avatar -->
+                <img class="profile-avatar" src="http://via.placeholder.com/120">
+                <!-- Conteúdo -->
+                <div class="content">
+                <h1><strong>Lucas</strong></h1>
+                <p>Brazil</p>
+                <p>Web Developer, Designer</p>
+                <!-- botao editar -->
+                <button class="btn btn-primary">Editar Perfil</button>
+                </div>
+                
+            </div>
+        </section>
+        <!-- /Profile -->
+        <!-- OPCOES -->
+        <div class="trending-container ms-5 ">
+            <div class="trending-searches ">
+                <a href="#!" class="badge">Seus trabalhos</a>
+                <a href="#!" class="badge">Suas curtidas</a>
+                <a href="#!" class="badge">Seus contratos</a>
+                <a href="#!" class="badge">Coleções</a>
+                <a href="#!" class="badge">Sobre você</a>
+            </div>
+        </div>
+        <!-- /OPCOES -->
         <!--Mini Banners -->
         <div class="col-12 col-md-10 offset-md-1" id="mini-banners">
-            <div class="row">
+            <div class="row justify-content-center">
                 <div class="col-12 col-md-4">
                     <div class="card text-center">
-                        <i class="bi bi-box primary-color"></i>
+                        <i class="bi bi-globe2 primary-color"></i>
                         <div class="card-body">
-                            <h5 class="card-title primary-color">Projetos completos</h5>
+                            <h5 class="card-title primary-color">Perfil Contratante</h5>
                             <p class="card-text secondary-color">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             </p>
-                            <a href="#!" class="btn btn-dark">Saber mais</a>
+                            <a href="#!" class="btn btn-dark">Editar</a>
 
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-4">
                     <div class="card text-center">
-                        <i class="bi bi-layers primary-color"></i>
+                        <i class="bi bi-briefcase primary-color"></i>
                         <div class="card-body">
-                            <h5 class="card-title primary-color">Você participa também</h5>
+                            <h5 class="card-title primary-color">Perfil Prestador</h5>
                             <p class="card-text secondary-color">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             </p>
-                            <a href="#!" class="btn btn-dark">Saber mais</a>
+                            <a href="#!" class="btn btn-dark">Editar</a>
                             
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-4">
-                    <div class="card text-center">
-                        <i class="bi bi-lightning-charge primary-color"></i>
-                        <div class="card-body">
-                            <h5 class="card-title primary-color">Adiantamente de entregas</h5>
-                            <p class="card-text secondary-color">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            </p>
-                            <a href="#!" class="btn btn-dark">Saber mais</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <!-- /MINI-BANNER -->
     </main>
-
 
     <!-- FOOTER -->
     <footer class="container-fluid bg-dark-color" id="footer">
